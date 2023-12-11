@@ -12,6 +12,7 @@ git branch: 'main', credentialsId: '123', url: 'https://github.com/prajyotigokha
 stage('build'){
   steps {
      sh 'npm install'
+     sh 'npm install adm-zip'
   }
   }
   stage('Test') {
