@@ -1,3 +1,4 @@
-FROM node:10.4.0
+FROM wordpress:5
 
+RUN apt-get update
 RUN apt-get install -y imagemagick
