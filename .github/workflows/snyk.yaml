@@ -42,8 +42,8 @@ jobs:
 
         #Runs Snyk Open Source (SCA) analysis and uploads result to Snyk.
       - name: Snyk Open Source monitor
-        #run: snyk monitor --all-projects
-        run: snyk monitor --org=14e7bbc1-feba-4f59-b6dd-27d78c5eb73b --target-name='vulner' --report='vulner'|| true
+        run: snyk monitor --all-projects
+        #run: snyk monitor --org=14e7bbc1-feba-4f59-b6dd-27d78c5eb73b --target-name='vulner' --report='vulner'|| true
 
         #Runs Snyk Infrastructure as Code (IaC) analysis and uploads result to Snyk.
         #Use || true to not fail the pipeline.
