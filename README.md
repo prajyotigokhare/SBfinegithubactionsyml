@@ -218,4 +218,5 @@ When the wizard is done, restart the application and run the exploits again to c
 test commit
 added snyk.yaml
 
-test commit after addin terraform/aws
+test commit after adding terraform/aws
+
