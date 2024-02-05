@@ -32,7 +32,7 @@ jobs:
         #env:
           # This is where you will need to introduce the Snyk API token created with your Snyk account
       - name: Authenticate snyk
-        run: npx snyk auth bb233b41-1359-484d-888c-e79d3129a095
+        run: npx snyk auth 9fb45c56-8878-4374-9de4-8b45f593c1c3
 
         #Runs Snyk Code (SAST) analysis and uploads result into GitHub.
         #Use || true to not fail the pipeline
